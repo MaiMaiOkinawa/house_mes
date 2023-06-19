@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/kokoro.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" type="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>House</title>
+  </head>
+
+  <body>
+    <audio id="bathroom" src="sounds/bathroom.mp3"></audio>
+    <audio id="bedroom" src="sounds/bedroom.mp3"></audio>
+    <audio id="bowl" src="sounds/bowl.mp3"></audio>
+    <audio id="chopsticks" src="sounds/chopsticks.mp3"></audio>
+    <audio id="cup" src="sounds/cup.mp3"></audio>
+    <audio id="cupboard" src="sounds/cupboard.mp3"></audio>
+    <audio id="frying_pan" src="sounds/frying_pan.mp3"></audio>
+    <audio id="glass" src="sounds/glass.mp3"></audio>
+    <audio id="house" src="sounds/house.mp3"></audio>
+    <audio id="kitchen" src="sounds/kitchen.mp3"></audio>
+    <audio id="living_room" src="sounds/living_room.mp3"></audio>
+    <audio id="mirror" src="sounds/mirror.mp3"></audio>
+    <audio id="pillow" src="sounds/pillow.mp3"></audio>
+    <audio id="plate" src="sounds/plate.mp3"></audio>
+    <audio id="soap" src="sounds/soap.mp3"></audio>
+    <audio id="spoon" src="sounds/spoon.mp3"></audio>
+    <audio id="towel" src="sounds/towel.mp3"></audio>
+    <audio id="washroom" src="sounds/washroom.mp3"></audio>
+
+    <h1>House</h1>
+    <div class="container">
+      <!-- bathroom -->
+      <div class="text">
+        <h3 class="text-title">Bathroom</h3>
+        <a onclick="document.getElementById('bathroom').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">おふろ</p>
+        </div>
+      </div>
+      <!-- bathroom end -->
+
+      <!-- bedroom -->
+      <div class="text">
+        <h3 class="text-title">Bedroom</h3>
+        <a onclick="document.getElementById('bedroom').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+          />
+          <p class="img__description">しんしつ</p>
+        </div>
+      </div>
+      <!-- bedroom end -->
+
+      <!-- bowl -->
+      <div class="text">
+        <h3 class="text-title">Bowl</h3>
+        <a onclick="document.getElementById('bowl').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1523367310297-83064fc42a16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">ちゃわん</p>
+        </div>
+      </div>
+      <!-- bowl end -->
+
+      <!-- chopsticks -->
+      <div class="text">
+        <h3 class="text-title">Chopsticks</h3>
+        <a onclick="document.getElementById('chopsticks').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1583587635709-9c11b65fc1af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">はし</p>
+        </div>
+      </div>
+      <!-- chopsticks end -->
+
+      <!-- cup -->
+      <div class="text">
+        <h3 class="text-title">Cup</h3>
+        <a onclick="document.getElementById('cup').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">コップ</p>
+        </div>
+      </div>
+      <!-- cup end -->
+
+      <!-- cupboard -->
+      <div class="text">
+        <h3 class="text-title">Cupboard</h3>
+        <a onclick="document.getElementById('cupboard').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1556908221-f685cdb3b0ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">しょっきだな</p>
+        </div>
+      </div>
+      <!-- cupboard end -->
+
+      <!-- frying pan -->
+      <div class="text">
+        <h3 class="text-title">Frying Pan</h3>
+        <a onclick="document.getElementById('frying_pan').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1518291344630-4857135fb581?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+          />
+          <p class="img__description">フライパン</p>
+        </div>
+      </div>
+      <!-- frying pan end -->
+
+      <!-- glass -->
+      <div class="text">
+        <h3 class="text-title">Glass</h3>
+        <a onclick="document.getElementById('glass').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1534616042650-80f5c9b61f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=724&q=80"
+          />
+          <p class="img__description">グラス</p>
+        </div>
+      </div>
+      <!-- glass end -->
+
+      <!-- house -->
+      <div class="text">
+        <h3 class="text-title">House</h3>
+        <a onclick="document.getElementById('house').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1278&q=80"
+          />
+          <p class="img__description">いえ</p>
+        </div>
+      </div>
+      <!-- house end -->
+
+      <!-- kitchen -->
+      <div class="text">
+        <h3 class="text-title">Kitchen</h3>
+        <a onclick="document.getElementById('kitchen').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">だいどころ</p>
+        </div>
+      </div>
+      <!-- kitchen end -->
+
+      <!-- living room -->
+      <div class="text">
+        <h3 class="text-title">Living Room</h3>
+        <a onclick="document.getElementById('living_room').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">いま</p>
+        </div>
+      </div>
+      <!-- living room end -->
+
+      <!-- mirror -->
+      <div class="text">
+        <h3 class="text-title">Mirror</h3>
+        <a onclick="document.getElementById('mirror').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1586951760404-1b01ec9988a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">かがみ</p>
+        </div>
+      </div>
+      <!-- mirror end -->
+
+      <!-- pillow -->
+      <div class="text">
+        <h3 class="text-title">Pillow</h3>
+        <a onclick="document.getElementById('pillow').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1600414428640-f78a67c2aa3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=773&q=80"
+          />
+          <p class="img__description">まくら</p>
+        </div>
+      </div>
+      <!-- pillow end -->
+
+      <!-- plate -->
+      <div class="text">
+        <h3 class="text-title">Plate</h3>
+        <a onclick="document.getElementById('plate').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1591632288574-a387f820a1ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">さら</p>
+        </div>
+      </div>
+      <!-- plate end -->
+
+      <!-- soap -->
+      <div class="text">
+        <h3 class="text-title">Soap</h3>
+        <a onclick="document.getElementById('soap').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1634906345513-3fef37b28ae6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">せっけん</p>
+        </div>
+      </div>
+      <!-- soap end -->
+
+      <!-- spoon -->
+      <div class="text">
+        <h3 class="text-title">Spoon</h3>
+        <a onclick="document.getElementById('spoon').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1591872203534-278fc084969e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+          />
+          <p class="img__description">スプーン</p>
+        </div>
+      </div>
+      <!-- spoon end -->
+
+      <!-- towel -->
+      <div class="text">
+        <h3 class="text-title">Towel</h3>
+        <a onclick="document.getElementById('towel').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1639298108944-76a403a7c38d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=777&q=80"
+          />
+          <p class="img__description">タオル</p>
+        </div>
+      </div>
+      <!-- towel end -->
+
+      <!-- washroom -->
+      <div class="text">
+        <h3 class="text-title">Washroom</h3>
+        <a onclick="document.getElementById('washroom').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1668911491512-8a4fa69b31b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">おてあらい</p>
+        </div>
+      </div>
+      <!-- washroom end -->
+    </div>
+
+    <!-- container end -->
+    <script src="script.js"></script>
+  </body>
+</html>
